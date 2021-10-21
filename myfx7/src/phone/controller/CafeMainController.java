@@ -129,7 +129,7 @@ public class CafeMainController {
 	void onClickStatistic(ActionEvent event) throws IOException {
 		if(Main.sw.equals("on") && ((Main.position.equals("관리자"))||(Main.position.equals("임원")))) {
 
-			AnchorPane root = FXMLLoader.load(getClass().getResource("/phone/view//CafeView.fxml"));
+			AnchorPane root = FXMLLoader.load(getClass().getResource("/phone/view/CafeView.fxml"));
 			Main.mainLayout.setCenter(root);
 			Main.setPrimaryStage("통계 화면");
 		} 

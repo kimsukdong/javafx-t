@@ -324,7 +324,7 @@ Main main= new Main();
 	void onClickClear(ActionEvent event) {
       	main.showMainView();
 		try {
-			AnchorPane root = FXMLLoader.load(getClass().getResource("/phone/view//CafeMain.fxml"));
+			AnchorPane root = FXMLLoader.load(getClass().getResource("/phone/view/CafeMain.fxml"));
 			Main.mainLayout.setCenter(root);
 		} catch(Exception e) {
 			e.printStackTrace();
